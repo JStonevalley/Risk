@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Risk.GameControllers;
 namespace Risk
 {
     public class Player
@@ -12,5 +12,6 @@ namespace Risk
         public int ID { get; set; }
         public string Email { get; set; }
         public string DisplayName { get; set; }
+        public ICollection<Game> Games { get; set; }
     }
 }

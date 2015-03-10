@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Risk.Entities;
+using Risk.GameControllers;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -12,5 +14,9 @@ namespace Risk
         public RiskContext() : base() { }
         public DbSet<Player> Players { get; set; }
         public DbSet<Territory> Territories { get; set; }
+        public DbSet<Area> Areas { get; set; }
+        public DbSet<World> Worlds { get; set; }
+        public DbSet<GameState> GameStates { get; set; }
+        public DbSet<Game> Games { get; set; }
     }
 }

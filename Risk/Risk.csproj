@@ -46,10 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Player.cs" />
+    <Compile Include="Entities\Area.cs" />
+    <Compile Include="Entities\Player.cs" />
+    <Compile Include="Entities\World.cs" />
+    <Compile Include="GameControllers\Game.cs" />
+    <Compile Include="GameControllers\GameState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RiskContext.cs" />
-    <Compile Include="Territory.cs" />
+    <Compile Include="Entities\Territory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
