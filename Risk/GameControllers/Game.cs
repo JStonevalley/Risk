@@ -10,8 +10,8 @@ namespace Risk.GameControllers
     {
         public Game() { }
         public int ID { get; set; }
-        public ICollection<Player> Players { get; set; }
-        public ICollection<GameState> GameStates { get; set; }
-        public Player? Winner { get; set; }
+        public IList<Player> Players { get; set; }
+        public IList<GameState> GameStates { get; set; }
+        public Player Winner { get; set; }
     }
 }

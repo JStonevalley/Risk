@@ -12,6 +12,6 @@ namespace Risk
         public int ID { get; set; }
         public string Name { get; set; }
         public int TroopBonus { get; set; }
-        public ICollection<Territory> Territories { get; set; }
+        public IList<Territory> Territories { get; set; }
     }
 }

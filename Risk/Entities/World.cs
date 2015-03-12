@@ -10,6 +10,6 @@ namespace Risk.Entities
     {
         public World() { }
         public int ID { get; set; }
-        public ICollection<Area> Areas { get; set; }
+        public IList<Area> Areas { get; set; }
     }
 }
